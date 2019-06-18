@@ -1,0 +1,14 @@
+Algorithm of the solution
+1. Define a function find_factorial which takes parameter num
+2. If num <= 0,  return 1.
+3. Else call the recursive factorial algorithm with num - 1, multiply the result by num and return that value
+4. End if
+5. End function
+
+6. Define a function is_curious which takes parameter num
+7. Define variable sum
+8. If num has two digits find factorial of each digit in num and add to sum 
+9. If num is equal to sum return True
+10. Else return False
+11. Else return False
+12. End function
